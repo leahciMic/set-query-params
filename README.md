@@ -1,4 +1,4 @@
-# Set query params
+# Set query params [![Build Status](https://travis-ci.org/leahciMic/set-query-params.svg?branch=master)](https://travis-ci.org/leahciMic/set-query-params)
 
 > Set/ override url query parameters
 

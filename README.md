@@ -20,7 +20,13 @@ yarn add set-query-params
 
 ## Usage
 
-Laziness has prevented usage instructions from being documented.
+```js
+import setQueryParams from `set-query-params`;
+
+const url = setQueryParams('http://example.org/?foo=test&hello=user', { hello: 'world' });
+
+console.log(url); // http://example.org/?foo=test&bar=test&hello=world
+```
 
 ## Contributing
 
